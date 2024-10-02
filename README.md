@@ -1,4 +1,5 @@
-- 👋 Hi, I’m @Lrigami
+# 👋 Hi, I’m @Lrigami
+
 - 👀 I’m interested in web and app development
 - 🌱 I’m currently learning React and the fundamentals of TypeScript
 - 📚 Getting help from OpenClassrooms courses
