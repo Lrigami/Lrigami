@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Lrigami
 - 👀 I’m interested in web and app development
-- 🌱 I’m currently learning JavaScript, Create and the fundamentals of TypeScript
+- 🌱 I’m currently learning JavaScript, React and the fundamentals of TypeScript
 - 💞️ I’m looking to collaborate on fun development projects and any project concerning Japan
 - 🗣 You can speak to me in French, English and Japanese
 - 😄 Pronouns: whatever you want (respectfully oc)
