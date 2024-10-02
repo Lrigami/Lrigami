@@ -6,7 +6,8 @@
 - 🗣 You can speak to me in French, English and Japanese
 - 😄 Pronouns: whatever you want (respectfully oc)
 
-<!---
-Lrigami/Lrigami is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lrigami&show_icons=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
+
+warning : this doesn't show what languages I master or not, simply the ones I use the most in my public GitHub repositories 
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
