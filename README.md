@@ -9,6 +9,16 @@
 
 *warning : this doesn't show what languages I master or not, simply the ones I use the most in my public GitHub repositories* 
 
+## Want a slice ? 
+
+<div style="width: 50%;" >
+  <a href="https://github.com/Lrigami/Lrigami/blob/main/pizza.svg">
+    <img src="pizza.svg" style="width: 50%;" alt="Click to see the source">
+  </a>
+</div>
+
+## GitHub stats
+
 <!-- Anurag's GitHub stats --!>
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
