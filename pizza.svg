@@ -1,0 +1,522 @@
+<!-- sample rectangle -->
+<svg fill="none" viewBox="0 0 710 610" width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="200%" height="200%">
+  <div xmlns="http://www.w3.org/1999/xhtml">
+    <style>
+
+.body {
+    width: 150%;
+    height: 150%;
+    overflow: hidden;
+    --crust-color: #b45e0d;
+    --base-color: #fbe558;
+    --cheese-color: #f7d012;
+    --cheese-border-color: #e9b005;
+    --pepperoni-color: #D63E12;
+    --pepperoni-border-color: #972a0b;
+    --basil-color: #52AA24;
+    --basil-border-color: #346c15;
+    --olive-color: #1d261b;
+    --olive-border-color: #080e08;
+    --slice-color: #d0bf99;
+}
+
+#pizza {
+    position: absolute;
+    width: px;
+    height: px;
+    animation: pizza 10s linear infinite;
+}
+
+#slices {
+    width: 710px;
+    height: 610px;
+}
+
+.slice {
+    width: 200px;
+    height: 200px;
+    border-left: 15px solid var(--crust-color);
+    border-top: 15px solid var(--crust-color);
+    border-bottom: 1px solid var(--slice-color);
+    border-right: 1px solid var(--slice-color);
+    box-sizing: border-box;
+    border-radius: 100% 0 0 0;
+    background-color: var(--base-color);
+    position: absolute;
+}
+
+.slice.one {
+    transform: rotate(25deg);
+    top: 72px;
+    left: 207px;
+}
+
+.slice.two {
+    transform: rotate(115deg);
+    left: 388px;
+    top: 156.255px;
+    animation: slice-two 10s ease-in-out infinite;
+}
+
+.slice.three {
+    transform: rotate(205deg);
+    top: 337px;
+    left: 303.5px;
+}
+
+.slice.four {
+    transform: rotate(295deg);
+    left: 122.5px;
+    top: 252.5px;
+}
+
+.slice-line {
+    width: 1px;
+    height: 107.5%;
+    background-color: var(--slice-color);
+    transform: rotate(-45deg);
+    position: relative;
+    left: 62%;
+    top: 8.5%;
+    z-index: 999;
+}
+
+.pepperoni div {
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid var(--pepperoni-border-color);
+    border-radius: 50%;
+    background-color: var(--pepperoni-color);
+    z-index: 1;
+    position: relative;
+}
+
+.pepperoni div:first-of-type {
+    left: 30px;
+    bottom: 50px;
+}
+
+.pepperoni div:nth-of-type(2) {
+    left: 55px;
+    bottom: 160px;
+}
+
+.pepperoni div:nth-of-type(3) {
+    left: 140px;
+    bottom: 110px;
+}
+
+.pepperoni div:last-of-type {
+    left: 140px;
+    bottom: 210px;
+}
+
+.basil div {
+    width: 10px;
+    height: 15px;
+    box-sizing: border-box;
+    border: 1px solid var(--basil-border-color);
+    border-radius: 0 60% 0 80%;
+    background-color: var(--basil-color);
+    z-index: 5;
+    position: relative;
+}
+
+.basil div:first-of-type {
+    left: 157px;
+    bottom: 297px;
+}
+
+.basil div:nth-of-type(2) {
+    left: 80px;
+    bottom: 180px;
+    transform: rotate(60deg);
+}
+
+.basil div:nth-of-type(3) {
+    left: 140px;
+    bottom: 280px;
+    transform: rotate(125deg);
+}
+
+.basil div:nth-of-type(4) {
+    left: 153px;
+    bottom: 225px;
+    transform: rotate(15deg);
+}
+
+.basil div:nth-of-type(5) {
+    left: 120px;
+    bottom: 260px;
+    transform: rotate(310deg);
+}
+
+.basil div:last-of-type {
+    left: 70px;
+    bottom: 270px;
+}
+
+.olive div {
+    width: 10px;
+    height: 10px;
+    box-sizing: border-box;
+    border: 3px solid var(--olive-border-color);
+    border-radius: 50%;
+    background-color: var(--olive-color);
+    z-index: 2;
+    position: relative;
+}
+
+.olive div:first-of-type {
+    left: 120px;
+    bottom: 300px;
+}
+
+.olive div:nth-of-type(2) {
+    left: 60px;
+    bottom: 280px;
+}
+
+.olive div:last-of-type {
+    left: 90px;
+    bottom: 380px;
+}
+
+.cheese div {
+    width: 10px;
+    height: 4px;
+    box-sizing: border-box;
+    border: 1px solid var(--cheese-border-color);
+    border-radius: 20%;
+    background-color: var(--cheese-color);
+    z-index: 10;
+    position: relative;
+}
+
+.cheese div:first-of-type {
+    left: 80px;
+    bottom: 350px;
+    transform: rotate(10deg);
+}
+
+.cheese div:nth-of-type(2) {
+    left: 95px;
+    bottom: 310px;
+    transform: rotate(120deg);
+}
+
+.cheese div:nth-of-type(3) {
+    left: 60px;
+    bottom: 300px;
+    transform: rotate(45deg);
+}
+
+.cheese div:nth-of-type(4) {
+    left: 40px;
+    bottom: 280px;
+    transform: rotate(300deg);
+}
+
+.cheese div:nth-of-type(5) {
+    left: 110px;
+    bottom: 410px;
+    transform: rotate(60deg);
+}
+
+.cheese div:nth-of-type(6) {
+    left: 150px;
+    bottom: 400px;
+    transform: rotate(260deg);
+}
+
+.cheese div:nth-of-type(7) {
+    left: 140px;
+    bottom: 300px;
+    transform: rotate(25deg);
+}
+
+.cheese div:nth-of-type(8) {
+    left: 20px;
+    bottom: 360px;
+    transform: rotate(70deg);
+}
+
+.cheese div:nth-of-type(9) {
+    left: 145px;
+    bottom: 325px;
+    transform: rotate(100deg);
+}
+
+.cheese div:nth-of-type(10) {
+    left: 155px;
+    bottom: 370px;
+    transform: rotate(12deg);
+}
+
+.cheese div:nth-of-type(11) {
+    left: 155px;
+    bottom: 400px;
+    transform: rotate(12deg);
+}
+
+.cheese div:last-of-type {
+    left: 125px;
+    bottom: 460px;
+    transform: rotate(110deg);
+}
+
+#cheese-strands div {
+    box-sizing: border-box;
+    border: 3px groove var(--cheese-color);
+    z-index: -1;
+    position: absolute;
+    animation: cheese-strands 10s ease-in-out infinite;
+}
+
+#cheese-strands div:first-of-type {
+    left: 418px;
+    top: 170px;
+    transform-origin: 0% 0%;
+    transform: rotate(-105deg);
+}
+
+#cheese-strands div:nth-of-type(2) {
+    left: 408px;
+    top: 190px;
+    transform-origin: 0% 0%;
+    transform: rotate(-95deg);
+}
+
+#cheese-strands div:nth-of-type(3) {
+    left: 380px;
+    top: 240px;
+    transform-origin: 0% 0%;
+    transform: rotate(-100deg);
+}
+
+#cheese-strands div:nth-of-type(4) {
+    left: 400px;
+    top: 330px;
+    transform-origin: 0% 0%;
+    transform: rotate(-120deg);
+}
+
+#cheese-strands div:nth-of-type(5) {
+    left: 430px;
+    top: 345px;
+    transform-origin: 0% 0%;
+    transform: rotate(-110deg);
+}
+
+#cheese-strands div:last-of-type {
+    left: 440px;
+    top: 350px;
+    transform-origin: 0% 0%;
+    transform: rotate(-105deg);
+}
+
+@keyframes pizza {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes slice-two {
+    0% {
+        left: 388px;
+        top: 156.255px;
+    }
+
+    50% {
+        left: 467px;
+        top: 120.3px
+    }
+
+    100% {
+        left: 388px;
+        top: 156.255px;
+    }
+} 
+
+@keyframes cheese-strands {
+    0% {
+        height: 20px;
+    }
+
+    50% {
+        height: 120px;
+    }
+
+    100% {
+        height: 20px;
+    }
+}
+    
+    </style>
+    <div class="body">
+    <div id="pizza">
+            <div id="slices">
+                <div class="slice one">
+                    <div class="slice-line"></div>
+                    <div class="pepperoni">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                    </div> 
+                    <div class="basil">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                    </div>
+                    <div class="olive">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                    </div>
+                    <div class="cheese">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="slice two">
+                    <div class="slice-line"></div> 
+                    <div class="pepperoni">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div> 
+                    <div class="basil">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="olive">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="cheese">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="slice three">
+                    <div class="slice-line"></div>
+                    <div class="pepperoni">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div> 
+                    <div class="basil">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                     <div class="olive">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="cheese">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div> 
+                </div>
+                <div class="slice four">
+                    <div class="slice-line"></div>
+                    <div class="pepperoni">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div> 
+                    <div class="basil">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="olive">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div class="cheese">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>  
+                </div>
+            </div>
+            <div id="cheese-strands">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+      </div>
+  </div>
+  </foreignObject>
+</svg>
