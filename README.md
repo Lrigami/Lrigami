@@ -12,7 +12,7 @@
 ## Want a slice ? 
 
 <div style="width: 50%;" >
-  <a href="https://github.com/Lrigami/Lrigami/blob/main/pizza.svg">
+  <a href="https://github.com/Lrigami/Animated-pizza-in-css">
     <img src="pizza.svg" style="width: 50%;" alt="Click to see the source">
   </a>
 </div>
