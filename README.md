@@ -7,8 +7,6 @@
 - 🗣 You can speak to me in French, English and Japanese
 - 😄 Pronouns: whatever you want (respectfully oc)
 
-*warning : this doesn't show what languages I master or not, simply the ones I use the most in my public GitHub repositories* 
-
 ## Want a slice ? 
 
 <div style="width: 50%;" >
@@ -18,6 +16,7 @@
 </div>
 
 ## GitHub stats
+*warning : this doesn't show what languages I master or not, simply the ones I use the most in my public GitHub repositories* 
 
 <!-- Anurag's GitHub stats --!>
 
