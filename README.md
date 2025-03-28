@@ -1,11 +1,14 @@
+[![Morning coffee](https://img.shields.io/badge/Morning-Coffee-green?style=for-the-badge)](https://img.shields.io/badge/Morning-Coffee-green?style=for-the-badge)
+
+
 # 👋 Hi, I’m @Lrigami
 
-- 👀 I’m interested in web and app development
-- 🌱 I’m currently learning React and the fundamentals of TypeScript
-- 📚 Getting help from OpenClassrooms courses
-- 💞️ I’m looking to collaborate on fun development projects and any project concerning Japan
-- 🗣 You can speak to me in French, English and Japanese
-- 😄 Pronouns: whatever you want (respectfully oc)
+I'm a junior web developer who started dev in October 2024. I mainly develop with Angular, Node.js and PostgreSQL. 
+At the moment I'm developing an improved planning and task management application: [Ultimate Planner](https://github.com/Lrigami/Ultimate-Planner).
+I'm passionate about Japan, where I lived for 6 months. Another of my projects currently in the pre-development phase is a website for learning Japanese from French at intermediate to advanced levels. 
+If you're interested in working with me, please don't hesitate to contact me. You can find me on my [LinkedIn](https://www.linkedin.com/in/prune-thiry-6886a6136/). You can contact me in French, English or Japanese.  
+
+See you soon!
 
 ## Want a slice ? 
 
