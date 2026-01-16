@@ -21,7 +21,7 @@ See you soon!
 ## GitHub stats
 *warning : this doesn't show what languages I master or not, simply the ones I use the most in my public GitHub repositories* 
 
-<!-- Anurag's GitHub stats -->
+<!-- Anurag's GitHub stats
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lrigami&show_icons=true&theme=tokyonight)
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=tokyonight)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=tokyonight) -->
